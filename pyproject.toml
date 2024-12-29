@@ -1,0 +1,18 @@
+[project]
+name = "your_project"
+version = "0.1.0"
+description = "docython - auto documentation generator"
+authors = [{name = "Fleep", email = "veryfleep@gmail.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["documentation", "python", "doc", "docs", "ast"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = ["jinja2"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
