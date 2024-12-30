@@ -1,5 +1,5 @@
 [project]
-name = "your_project"
+name = "docython"
 version = "0.1.0"
 description = "docython - auto documentation generator"
 authors = [{name = "Fleep", email = "veryfleep@gmail.com"}]
@@ -16,3 +16,7 @@ dependencies = ["jinja2"]
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
